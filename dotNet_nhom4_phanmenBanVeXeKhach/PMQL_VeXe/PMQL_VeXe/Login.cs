@@ -12,6 +12,8 @@ namespace PMQL_VeXe
 {
     public partial class Login : Form
     {
+        public static string Name;
+
         public Login()
         {
             InitializeComponent();
@@ -37,7 +39,7 @@ namespace PMQL_VeXe
 
             string user = txtUser.Text;
             string pass = txtPass.Text;
-
+            Name =user; 
             if (user == null || user.Equals(""))
             {
                 MessageBox.Show("Tài Khoản Không Để Trống", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -55,6 +57,11 @@ namespace PMQL_VeXe
            
 
             
+        }
+
+        private void txtUser_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

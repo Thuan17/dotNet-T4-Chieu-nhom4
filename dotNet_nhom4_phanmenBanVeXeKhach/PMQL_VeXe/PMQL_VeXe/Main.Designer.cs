@@ -31,18 +31,22 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panelBody = new System.Windows.Forms.Panel();
+            this.pMain = new System.Windows.Forms.Panel();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.label13 = new System.Windows.Forms.Label();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.pHeThong = new System.Windows.Forms.Panel();
+            this.btnQLKhachHang = new System.Windows.Forms.Button();
+            this.btnQLTaiXe = new System.Windows.Forms.Button();
+            this.btnQLNhanVien = new System.Windows.Forms.Button();
+            this.btnQLHeThong = new System.Windows.Forms.Button();
             this.pDropdown = new System.Windows.Forms.Panel();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.btnDropMenu = new System.Windows.Forms.Button();
-            this.panelBody = new System.Windows.Forms.Panel();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.label13 = new System.Windows.Forms.Label();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.panel10 = new System.Windows.Forms.Panel();
+            this.btnQLXe = new System.Windows.Forms.Button();
             this.btn_Home = new System.Windows.Forms.Button();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -62,144 +66,71 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.btnCheckOut = new System.Windows.Forms.Button();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.txtName = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.timerDropMenu = new System.Windows.Forms.Timer(this.components);
+            this.timerQLHeThong = new System.Windows.Forms.Timer(this.components);
             this.panel2.SuspendLayout();
-            this.pDropdown.SuspendLayout();
             this.panelBody.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel8.SuspendLayout();
+            this.pHeThong.SuspendLayout();
+            this.pDropdown.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
+            this.tableLayoutPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.Controls.Add(this.pHeThong);
             this.panel2.Controls.Add(this.panelBody);
             this.panel2.Controls.Add(this.tableLayoutPanel1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(0, 60);
+            this.panel2.Location = new System.Drawing.Point(0, 54);
             this.panel2.Name = "panel2";
             this.panel2.Padding = new System.Windows.Forms.Padding(10);
-            this.panel2.Size = new System.Drawing.Size(1369, 673);
+            this.panel2.Size = new System.Drawing.Size(1542, 679);
             this.panel2.TabIndex = 3;
-            // 
-            // pDropdown
-            // 
-            this.pDropdown.Controls.Add(this.button5);
-            this.pDropdown.Controls.Add(this.button4);
-            this.pDropdown.Controls.Add(this.button3);
-            this.pDropdown.Controls.Add(this.btnDropMenu);
-            this.pDropdown.Location = new System.Drawing.Point(1, 131);
-            this.pDropdown.MaximumSize = new System.Drawing.Size(130, 154);
-            this.pDropdown.MinimumSize = new System.Drawing.Size(130, 43);
-            this.pDropdown.Name = "pDropdown";
-            this.pDropdown.Size = new System.Drawing.Size(130, 43);
-            this.pDropdown.TabIndex = 0;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.White;
-            this.button5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(0, 126);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(130, 37);
-            this.button5.TabIndex = 7;
-            this.button5.Text = "TK bán vé";
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.White;
-            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(0, 89);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(130, 37);
-            this.button4.TabIndex = 6;
-            this.button4.Text = "TK xe";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.White;
-            this.button3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(0, 43);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(130, 46);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "TK nhân viên";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // btnDropMenu
-            // 
-            this.btnDropMenu.BackColor = System.Drawing.Color.SkyBlue;
-            this.btnDropMenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnDropMenu.FlatAppearance.BorderSize = 0;
-            this.btnDropMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDropMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDropMenu.Image = ((System.Drawing.Image)(resources.GetObject("btnDropMenu.Image")));
-            this.btnDropMenu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDropMenu.Location = new System.Drawing.Point(0, 0);
-            this.btnDropMenu.Name = "btnDropMenu";
-            this.btnDropMenu.Size = new System.Drawing.Size(130, 43);
-            this.btnDropMenu.TabIndex = 4;
-            this.btnDropMenu.Text = "Thống Kê";
-            this.btnDropMenu.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnDropMenu.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.btnDropMenu.UseVisualStyleBackColor = false;
-            this.btnDropMenu.Click += new System.EventHandler(this.btnDropMenu_Click);
             // 
             // panelBody
             // 
-            this.panelBody.Controls.Add(this.panel7);
+            this.panelBody.Controls.Add(this.pMain);
             this.panelBody.Controls.Add(this.panel9);
             this.panelBody.Controls.Add(this.panel8);
             this.panelBody.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelBody.Location = new System.Drawing.Point(10, 117);
+            this.panelBody.Location = new System.Drawing.Point(10, 123);
             this.panelBody.Name = "panelBody";
-            this.panelBody.Size = new System.Drawing.Size(1349, 546);
+            this.panelBody.Size = new System.Drawing.Size(1522, 546);
             this.panelBody.TabIndex = 1;
             // 
-            // panel7
+            // pMain
             // 
-            this.panel7.BackColor = System.Drawing.Color.Silver;
-            this.panel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel7.Location = new System.Drawing.Point(131, 48);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(1218, 498);
-            this.panel7.TabIndex = 2;
+            this.pMain.BackColor = System.Drawing.Color.Silver;
+            this.pMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pMain.Location = new System.Drawing.Point(167, 48);
+            this.pMain.Name = "pMain";
+            this.pMain.Size = new System.Drawing.Size(1355, 498);
+            this.pMain.TabIndex = 2;
             // 
             // panel9
             // 
             this.panel9.BackColor = System.Drawing.Color.SkyBlue;
             this.panel9.Controls.Add(this.label13);
             this.panel9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel9.Location = new System.Drawing.Point(131, 0);
+            this.panel9.Location = new System.Drawing.Point(167, 0);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(1218, 48);
+            this.panel9.Size = new System.Drawing.Size(1355, 48);
             this.panel9.TabIndex = 1;
             // 
             // label13
@@ -216,40 +147,194 @@
             // 
             this.panel8.BackColor = System.Drawing.Color.SkyBlue;
             this.panel8.Controls.Add(this.pDropdown);
-            this.panel8.Controls.Add(this.button2);
-            this.panel8.Controls.Add(this.panel10);
+            this.panel8.Controls.Add(this.btnQLXe);
             this.panel8.Controls.Add(this.btn_Home);
             this.panel8.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel8.Location = new System.Drawing.Point(0, 0);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(131, 546);
+            this.panel8.Size = new System.Drawing.Size(167, 546);
             this.panel8.TabIndex = 0;
             this.panel8.Paint += new System.Windows.Forms.PaintEventHandler(this.panel8_Paint);
             // 
-            // button2
+            // pHeThong
             // 
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(0, 94);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(131, 40);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Quản Lý Xe";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.UseVisualStyleBackColor = true;
+            this.pHeThong.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pHeThong.Controls.Add(this.btnQLKhachHang);
+            this.pHeThong.Controls.Add(this.btnQLTaiXe);
+            this.pHeThong.Controls.Add(this.btnQLNhanVien);
+            this.pHeThong.Controls.Add(this.btnQLHeThong);
+            this.pHeThong.Location = new System.Drawing.Point(10, 297);
+            this.pHeThong.MaximumSize = new System.Drawing.Size(167, 159);
+            this.pHeThong.MinimumSize = new System.Drawing.Size(167, 40);
+            this.pHeThong.Name = "pHeThong";
+            this.pHeThong.Size = new System.Drawing.Size(167, 159);
+            this.pHeThong.TabIndex = 4;
             // 
-            // panel10
+            // btnQLKhachHang
             // 
-            this.panel10.Location = new System.Drawing.Point(131, 101);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(1218, 445);
-            this.panel10.TabIndex = 2;
+            this.btnQLKhachHang.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnQLKhachHang.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnQLKhachHang.FlatAppearance.BorderSize = 0;
+            this.btnQLKhachHang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnQLKhachHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQLKhachHang.Image = ((System.Drawing.Image)(resources.GetObject("btnQLKhachHang.Image")));
+            this.btnQLKhachHang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnQLKhachHang.Location = new System.Drawing.Point(0, 120);
+            this.btnQLKhachHang.Name = "btnQLKhachHang";
+            this.btnQLKhachHang.Size = new System.Drawing.Size(167, 40);
+            this.btnQLKhachHang.TabIndex = 7;
+            this.btnQLKhachHang.Text = "QL Khách Hàng";
+            this.btnQLKhachHang.UseVisualStyleBackColor = false;
+            // 
+            // btnQLTaiXe
+            // 
+            this.btnQLTaiXe.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnQLTaiXe.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnQLTaiXe.FlatAppearance.BorderSize = 0;
+            this.btnQLTaiXe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnQLTaiXe.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQLTaiXe.Image = ((System.Drawing.Image)(resources.GetObject("btnQLTaiXe.Image")));
+            this.btnQLTaiXe.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnQLTaiXe.Location = new System.Drawing.Point(0, 80);
+            this.btnQLTaiXe.Name = "btnQLTaiXe";
+            this.btnQLTaiXe.Size = new System.Drawing.Size(167, 40);
+            this.btnQLTaiXe.TabIndex = 6;
+            this.btnQLTaiXe.Text = "QL Tài Xề";
+            this.btnQLTaiXe.UseVisualStyleBackColor = false;
+            // 
+            // btnQLNhanVien
+            // 
+            this.btnQLNhanVien.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnQLNhanVien.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnQLNhanVien.FlatAppearance.BorderSize = 0;
+            this.btnQLNhanVien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnQLNhanVien.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQLNhanVien.Image = ((System.Drawing.Image)(resources.GetObject("btnQLNhanVien.Image")));
+            this.btnQLNhanVien.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnQLNhanVien.Location = new System.Drawing.Point(0, 40);
+            this.btnQLNhanVien.Name = "btnQLNhanVien";
+            this.btnQLNhanVien.Size = new System.Drawing.Size(167, 40);
+            this.btnQLNhanVien.TabIndex = 5;
+            this.btnQLNhanVien.Text = "QL Nhân Viên";
+            this.btnQLNhanVien.UseVisualStyleBackColor = false;
+            this.btnQLNhanVien.Click += new System.EventHandler(this.btnQLNhanVien_Click);
+            // 
+            // btnQLHeThong
+            // 
+            this.btnQLHeThong.BackColor = System.Drawing.Color.SkyBlue;
+            this.btnQLHeThong.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnQLHeThong.FlatAppearance.BorderSize = 0;
+            this.btnQLHeThong.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnQLHeThong.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQLHeThong.Image = ((System.Drawing.Image)(resources.GetObject("btnQLHeThong.Image")));
+            this.btnQLHeThong.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnQLHeThong.Location = new System.Drawing.Point(0, 0);
+            this.btnQLHeThong.Name = "btnQLHeThong";
+            this.btnQLHeThong.Size = new System.Drawing.Size(167, 40);
+            this.btnQLHeThong.TabIndex = 4;
+            this.btnQLHeThong.Text = "QL HỆ THỐNG";
+            this.btnQLHeThong.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnQLHeThong.UseVisualStyleBackColor = false;
+            this.btnQLHeThong.Click += new System.EventHandler(this.btnQLHeThong_Click);
+            // 
+            // pDropdown
+            // 
+            this.pDropdown.Controls.Add(this.button5);
+            this.pDropdown.Controls.Add(this.button4);
+            this.pDropdown.Controls.Add(this.button3);
+            this.pDropdown.Controls.Add(this.btnDropMenu);
+            this.pDropdown.Location = new System.Drawing.Point(0, 131);
+            this.pDropdown.MaximumSize = new System.Drawing.Size(167, 165);
+            this.pDropdown.MinimumSize = new System.Drawing.Size(167, 43);
+            this.pDropdown.Name = "pDropdown";
+            this.pDropdown.Size = new System.Drawing.Size(167, 43);
+            this.pDropdown.TabIndex = 0;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.White;
+            this.button5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
+            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.Location = new System.Drawing.Point(0, 126);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(167, 37);
+            this.button5.TabIndex = 7;
+            this.button5.Text = "TK bán vé";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.White;
+            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.Location = new System.Drawing.Point(0, 89);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(167, 37);
+            this.button4.TabIndex = 6;
+            this.button4.Text = "TK xe";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.White;
+            this.button3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.Location = new System.Drawing.Point(0, 43);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(167, 46);
+            this.button3.TabIndex = 5;
+            this.button3.Text = "TK nhân viên";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // btnDropMenu
+            // 
+            this.btnDropMenu.BackColor = System.Drawing.Color.SkyBlue;
+            this.btnDropMenu.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnDropMenu.FlatAppearance.BorderSize = 0;
+            this.btnDropMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDropMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDropMenu.Image = ((System.Drawing.Image)(resources.GetObject("btnDropMenu.Image")));
+            this.btnDropMenu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnDropMenu.Location = new System.Drawing.Point(0, 0);
+            this.btnDropMenu.Name = "btnDropMenu";
+            this.btnDropMenu.Size = new System.Drawing.Size(167, 43);
+            this.btnDropMenu.TabIndex = 4;
+            this.btnDropMenu.Text = "Thống Kê";
+            this.btnDropMenu.UseVisualStyleBackColor = false;
+            this.btnDropMenu.Click += new System.EventHandler(this.btnDropMenu_Click);
+            // 
+            // btnQLXe
+            // 
+            this.btnQLXe.BackColor = System.Drawing.Color.SkyBlue;
+            this.btnQLXe.FlatAppearance.BorderSize = 0;
+            this.btnQLXe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnQLXe.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQLXe.Image = ((System.Drawing.Image)(resources.GetObject("btnQLXe.Image")));
+            this.btnQLXe.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnQLXe.Location = new System.Drawing.Point(0, 85);
+            this.btnQLXe.Name = "btnQLXe";
+            this.btnQLXe.Size = new System.Drawing.Size(167, 40);
+            this.btnQLXe.TabIndex = 3;
+            this.btnQLXe.Text = "Quản Lý Xe";
+            this.btnQLXe.UseVisualStyleBackColor = false;
+            this.btnQLXe.Click += new System.EventHandler(this.btnQLXe_Click);
             // 
             // btn_Home
             // 
+            this.btn_Home.BackColor = System.Drawing.Color.SkyBlue;
             this.btn_Home.FlatAppearance.BorderSize = 0;
             this.btn_Home.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Home.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -257,10 +342,10 @@
             this.btn_Home.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_Home.Location = new System.Drawing.Point(0, 48);
             this.btn_Home.Name = "btn_Home";
-            this.btn_Home.Size = new System.Drawing.Size(131, 40);
+            this.btn_Home.Size = new System.Drawing.Size(167, 40);
             this.btn_Home.TabIndex = 0;
             this.btn_Home.Text = "Bán Vé";
-            this.btn_Home.UseVisualStyleBackColor = true;
+            this.btn_Home.UseVisualStyleBackColor = false;
             this.btn_Home.Click += new System.EventHandler(this.btn_Home_Click);
             // 
             // tableLayoutPanel1
@@ -279,7 +364,7 @@
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1349, 100);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1522, 100);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // panel6
@@ -289,10 +374,10 @@
             this.panel6.Controls.Add(this.label11);
             this.panel6.Controls.Add(this.label12);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel6.Location = new System.Drawing.Point(677, 3);
+            this.panel6.Location = new System.Drawing.Point(763, 3);
             this.panel6.Name = "panel6";
             this.panel6.Padding = new System.Windows.Forms.Padding(0, 0, 10, 10);
-            this.panel6.Size = new System.Drawing.Size(331, 94);
+            this.panel6.Size = new System.Drawing.Size(374, 94);
             this.panel6.TabIndex = 4;
             // 
             // label10
@@ -312,7 +397,7 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label11.Location = new System.Drawing.Point(248, 35);
+            this.label11.Location = new System.Drawing.Point(291, 35);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(70, 24);
             this.label11.TabIndex = 1;
@@ -336,10 +421,10 @@
             this.panel5.Controls.Add(this.label8);
             this.panel5.Controls.Add(this.label9);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel5.Location = new System.Drawing.Point(1014, 3);
+            this.panel5.Location = new System.Drawing.Point(1143, 3);
             this.panel5.Name = "panel5";
             this.panel5.Padding = new System.Windows.Forms.Padding(0, 0, 10, 10);
-            this.panel5.Size = new System.Drawing.Size(332, 94);
+            this.panel5.Size = new System.Drawing.Size(376, 94);
             this.panel5.TabIndex = 3;
             // 
             // label7
@@ -359,7 +444,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label8.Location = new System.Drawing.Point(271, 35);
+            this.label8.Location = new System.Drawing.Point(315, 35);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(60, 24);
             this.label8.TabIndex = 1;
@@ -386,7 +471,7 @@
             this.panel3.Location = new System.Drawing.Point(3, 3);
             this.panel3.Name = "panel3";
             this.panel3.Padding = new System.Windows.Forms.Padding(0, 0, 10, 10);
-            this.panel3.Size = new System.Drawing.Size(331, 94);
+            this.panel3.Size = new System.Drawing.Size(374, 94);
             this.panel3.TabIndex = 2;
             // 
             // label1
@@ -406,7 +491,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(270, 35);
+            this.label2.Location = new System.Drawing.Point(313, 35);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(60, 24);
             this.label2.TabIndex = 1;
@@ -430,10 +515,10 @@
             this.panel4.Controls.Add(this.label5);
             this.panel4.Controls.Add(this.label6);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(340, 3);
+            this.panel4.Location = new System.Drawing.Point(383, 3);
             this.panel4.Name = "panel4";
             this.panel4.Padding = new System.Windows.Forms.Padding(0, 0, 10, 10);
-            this.panel4.Size = new System.Drawing.Size(331, 94);
+            this.panel4.Size = new System.Drawing.Size(374, 94);
             this.panel4.TabIndex = 1;
             // 
             // label4
@@ -453,7 +538,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label5.Location = new System.Drawing.Point(270, 35);
+            this.label5.Location = new System.Drawing.Point(313, 35);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(60, 24);
             this.label5.TabIndex = 1;
@@ -473,56 +558,111 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.txtName);
+            this.panel1.Controls.Add(this.tableLayoutPanel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1369, 60);
+            this.panel1.Size = new System.Drawing.Size(1542, 54);
             this.panel1.TabIndex = 2;
             // 
-            // pictureBox1
+            // tableLayoutPanel2
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(32, 32);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.tableLayoutPanel2.ColumnCount = 3;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.02464F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 88.97536F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 53F));
+            this.tableLayoutPanel2.Controls.Add(this.btnCheckOut, 2, 0);
+            this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel3, 0, 0);
+            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 1;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1542, 54);
+            this.tableLayoutPanel2.TabIndex = 0;
+            // 
+            // btnCheckOut
+            // 
+            this.btnCheckOut.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnCheckOut.FlatAppearance.BorderSize = 0;
+            this.btnCheckOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCheckOut.Image = ((System.Drawing.Image)(resources.GetObject("btnCheckOut.Image")));
+            this.btnCheckOut.Location = new System.Drawing.Point(1491, 3);
+            this.btnCheckOut.Name = "btnCheckOut";
+            this.btnCheckOut.Size = new System.Drawing.Size(48, 48);
+            this.btnCheckOut.TabIndex = 2;
+            this.btnCheckOut.UseVisualStyleBackColor = true;
+            this.btnCheckOut.Click += new System.EventHandler(this.btnCheckOut_Click);
+            // 
+            // tableLayoutPanel3
+            // 
+            this.tableLayoutPanel3.ColumnCount = 2;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 24.05063F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 75.94936F));
+            this.tableLayoutPanel3.Controls.Add(this.txtName, 1, 0);
+            this.tableLayoutPanel3.Controls.Add(this.pictureBox1, 0, 0);
+            this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 1;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(158, 48);
+            this.tableLayoutPanel3.TabIndex = 3;
             // 
             // txtName
             // 
             this.txtName.AutoSize = true;
+            this.txtName.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtName.Location = new System.Drawing.Point(41, 11);
+            this.txtName.Location = new System.Drawing.Point(40, 0);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(70, 24);
+            this.txtName.Size = new System.Drawing.Size(115, 48);
             this.txtName.TabIndex = 0;
             this.txtName.Text = "label14";
             this.txtName.Click += new System.EventHandler(this.txtName_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(31, 42);
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // timerDropMenu
             // 
-            this.timerDropMenu.Interval = 15;
+            this.timerDropMenu.Interval = 10;
             this.timerDropMenu.Tick += new System.EventHandler(this.timerDropMenu_Tick);
+            // 
+            // timerQLHeThong
+            // 
+            this.timerQLHeThong.Interval = 15;
+            this.timerQLHeThong.Tick += new System.EventHandler(this.timerQLHeThong_Tick);
             // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1369, 733);
+            this.ClientSize = new System.Drawing.Size(1542, 733);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.MinimumSize = new System.Drawing.Size(1058, 772);
             this.Name = "Main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Main";
+            this.Load += new System.EventHandler(this.Main_Load);
             this.panel2.ResumeLayout(false);
-            this.pDropdown.ResumeLayout(false);
             this.panelBody.ResumeLayout(false);
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
             this.panel8.ResumeLayout(false);
+            this.pHeThong.ResumeLayout(false);
+            this.pDropdown.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
@@ -533,7 +673,9 @@
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.tableLayoutPanel2.ResumeLayout(false);
+            this.tableLayoutPanel3.ResumeLayout(false);
+            this.tableLayoutPanel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -560,21 +702,29 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label txtName;
         private System.Windows.Forms.Panel panelBody;
-        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Panel pMain;
         private System.Windows.Forms.Panel panel9;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Timer timerDropMenu;
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Panel panel10;
-        private System.Windows.Forms.Button btn_Home;
         private System.Windows.Forms.Panel pDropdown;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Timer timerDropMenu;
         private System.Windows.Forms.Button btnDropMenu;
+        private System.Windows.Forms.Button btnQLXe;
+        private System.Windows.Forms.Button btn_Home;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
+        private System.Windows.Forms.Button btnCheckOut;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label txtName;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
+        private System.Windows.Forms.Panel pHeThong;
+        private System.Windows.Forms.Button btnQLHeThong;
+        private System.Windows.Forms.Button btnQLNhanVien;
+        private System.Windows.Forms.Button btnQLTaiXe;
+        private System.Windows.Forms.Button btnQLKhachHang;
+        private System.Windows.Forms.Timer timerQLHeThong;
     }
 }
