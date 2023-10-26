@@ -134,7 +134,6 @@ select * from dbo_KhachHang
 
 
 insert into dbo_BangVeXe values('V001',GETDATE(),0329867771,'320000.00',2,'onl','LT005','51B02789','NV003')
-
 select * from dbo_BangVeXe
 
 
