@@ -32,10 +32,10 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.btnTim = new System.Windows.Forms.Button();
             this.txtTenNhanVien = new System.Windows.Forms.TextBox();
             this.txtMaNhanVien = new System.Windows.Forms.TextBox();
             this.btnLoad = new System.Windows.Forms.Button();
-            this.btnTim = new System.Windows.Forms.Button();
             this.btnThem = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -74,7 +74,7 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 139F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 56F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 538F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 157F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 158F));
             this.tableLayoutPanel2.Controls.Add(this.btnTim, 0, 1);
             this.tableLayoutPanel2.Controls.Add(this.txtTenNhanVien, 0, 1);
             this.tableLayoutPanel2.Controls.Add(this.txtMaNhanVien, 0, 1);
@@ -89,13 +89,31 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(1349, 78);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
+            // btnTim
+            // 
+            this.btnTim.BackColor = System.Drawing.Color.ForestGreen;
+            this.btnTim.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnTim.FlatAppearance.BorderSize = 0;
+            this.btnTim.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTim.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTim.ForeColor = System.Drawing.Color.White;
+            this.btnTim.Image = ((System.Drawing.Image)(resources.GetObject("btnTim.Image")));
+            this.btnTim.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnTim.Location = new System.Drawing.Point(460, 33);
+            this.btnTim.Name = "btnTim";
+            this.btnTim.Size = new System.Drawing.Size(133, 42);
+            this.btnTim.TabIndex = 4;
+            this.btnTim.Text = "Tìm Kiếm";
+            this.btnTim.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnTim.UseVisualStyleBackColor = false;
+            // 
             // txtTenNhanVien
             // 
             this.txtTenNhanVien.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtTenNhanVien.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtTenNhanVien.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTenNhanVien.ForeColor = System.Drawing.Color.Silver;
-            this.txtTenNhanVien.Location = new System.Drawing.Point(237, 33);
+            this.txtTenNhanVien.Location = new System.Drawing.Point(236, 33);
             this.txtTenNhanVien.Name = "txtTenNhanVien";
             this.txtTenNhanVien.Size = new System.Drawing.Size(218, 27);
             this.txtTenNhanVien.TabIndex = 1;
@@ -109,7 +127,7 @@
             this.txtMaNhanVien.ForeColor = System.Drawing.Color.Silver;
             this.txtMaNhanVien.Location = new System.Drawing.Point(3, 33);
             this.txtMaNhanVien.Name = "txtMaNhanVien";
-            this.txtMaNhanVien.Size = new System.Drawing.Size(228, 27);
+            this.txtMaNhanVien.Size = new System.Drawing.Size(227, 27);
             this.txtMaNhanVien.TabIndex = 0;
             this.txtMaNhanVien.Text = "   Mã Nhân Viên ";
             this.txtMaNhanVien.Enter += new System.EventHandler(this.txtMaNhanVien_Enter);
@@ -121,29 +139,11 @@
             this.btnLoad.FlatAppearance.BorderSize = 0;
             this.btnLoad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLoad.Image = ((System.Drawing.Image)(resources.GetObject("btnLoad.Image")));
-            this.btnLoad.Location = new System.Drawing.Point(600, 33);
+            this.btnLoad.Location = new System.Drawing.Point(599, 33);
             this.btnLoad.Name = "btnLoad";
             this.btnLoad.Size = new System.Drawing.Size(50, 42);
             this.btnLoad.TabIndex = 3;
             this.btnLoad.UseVisualStyleBackColor = false;
-            // 
-            // btnTim
-            // 
-            this.btnTim.BackColor = System.Drawing.Color.ForestGreen;
-            this.btnTim.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnTim.FlatAppearance.BorderSize = 0;
-            this.btnTim.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTim.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTim.ForeColor = System.Drawing.Color.White;
-            this.btnTim.Image = ((System.Drawing.Image)(resources.GetObject("btnTim.Image")));
-            this.btnTim.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTim.Location = new System.Drawing.Point(461, 33);
-            this.btnTim.Name = "btnTim";
-            this.btnTim.Size = new System.Drawing.Size(133, 42);
-            this.btnTim.TabIndex = 4;
-            this.btnTim.Text = "Tìm Kiếm";
-            this.btnTim.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnTim.UseVisualStyleBackColor = false;
             // 
             // btnThem
             // 
@@ -155,9 +155,9 @@
             this.btnThem.ForeColor = System.Drawing.Color.White;
             this.btnThem.Image = ((System.Drawing.Image)(resources.GetObject("btnThem.Image")));
             this.btnThem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThem.Location = new System.Drawing.Point(1194, 33);
+            this.btnThem.Location = new System.Drawing.Point(1193, 33);
             this.btnThem.Name = "btnThem";
-            this.btnThem.Size = new System.Drawing.Size(152, 42);
+            this.btnThem.Size = new System.Drawing.Size(153, 42);
             this.btnThem.TabIndex = 5;
             this.btnThem.Text = "Thêm mới";
             this.btnThem.UseVisualStyleBackColor = false;

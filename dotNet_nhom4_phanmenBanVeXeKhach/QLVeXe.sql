@@ -1,4 +1,4 @@
-create Database QL_VeXe
+﻿create Database QL_VeXe
 go
 
 
@@ -7,90 +7,137 @@ go
 
 
 
-create table NhanVien(
-	MaNV char(10)primary key ,
+create table dbo_NhanVien(
+	MaNhanVien char(10)primary key ,
 	Pass nvarchar(max),
 	TenNV nvarchar(max),
 	Img nvarchar(max),
 	Tuoi int ,
-	ChucVu char(10) ,
-	Luong float,
+	Luong decimal(18,2),
 	Brithday date,
+	Role char(20)
+)
+go
+
+create table dbo_BangVeXe(
+	MaVe char(10) primary key ,
+	NgayMua datetime,
+	IdKhach int,
+	GiaVe decimal(18,2),
+	SoLuong int ,
+	TrangThai char(50),
+	MaBangLichTrinh char(20),
+	MaXe char(12),
+	MaNhanVien char(10)
 )
 go
 
 
-
-create table KhachHang (
-	Sdt int primary key ,
-	TenKhachHang nvarchar(max),
+create table dbo_BangLichTrinh(
+	MaBangLichTrinh char(20)primary key ,
+	TenLichTrinh nvarchar(max),
+	NgayKhoiHanh DateTime ,
+	MaXe char(12),
 )
 go
 
-create table Xe(
-	MaXe char(10)primary key ,
+Create table dbo_Xe(
+	MaXe char(12)primary key ,
 	SoGhe int ,
-	LoaiXe char(10),
-	BienSo char(10),
-	MaNV char(10),
-)
-go
-create table BenXe(
-	MaBen char(10)primary key ,
-	TenBen nvarchar(max),
-)
-go
-
-create table BenDen(
-	MaBen char(10) ,
-	TenBenDen nvarchar(200)primary key ,
-)
-go
-create table BenDi(
-	MaBen char(10) ,
-	TenBenDi nvarchar(200)primary key ,
+	MaNhanVien char(10)
 )
 go
 
 
+create table dbo_History(
+	MaHis char(10)primary key ,
+	NoiDung nvarchar(max),
+	MaNhanVien char(10),
+)
+go
 
 
-create table Ve(
-	MaVe nvarchar(20)primary key,
-	ThoiGian DateTime ,
-	TenBenDi nvarchar(200),
-	TenBenDen nvarchar(200),
-	GiaVe float,
-	NgayBanVe DateTime,
-	MaNV char(10) ,
-	Sdt int ,
+select * from dbo_History
+
+
+create table dbo_KhachHang(
+IdKhach int  primary key, 
+TenKhach nvarchar(max),
+SoLuong int 
 )
 go
 
 ------fk-------
-alter table NhanVien
+alter table dbo_Xe
 add constraint NVtoX
-foreign key (MaNV)
-references Xe
+foreign key (MaNhanVien)
+references dbo_NhanVien
 
-alter table Ve
-add constraint NVtoVe
-foreign key (MaNV)
-references NhanVien
+alter table dbo_BangVeXe
+add constraint VtoNV
+foreign key (MaNhanVien)
+references dbo_NhanVien
 
-alter table Ve
-add constraint KhtoVe
-foreign key (Sdt)
-references KhachHang
+alter table dbo_History
+add constraint HtoNV
+foreign key (MaNhanVien)
+references dbo_NhanVien
 
-alter table Ve
-add constraint BDtoVe
-foreign key (TenBenDi)
-references BenDi
+alter table dbo_BangVeXe
+add constraint LTtoV
+foreign key (MaBangLichTrinh)
+references dbo_BangLichTrinh
 
 
-alter table Ve
-add constraint BDetoVe
-foreign key (TenBenDen)
-references BenDen
--
+
+
+alter table dbo_BangVeXe
+add constraint VtoX
+foreign key (MaXe)
+references dbo_Xe
+
+
+alter table dbo_BangLichTrinh
+add constraint XtoLT
+foreign key (MaXe)
+references dbo_Xe
+
+
+----------------------------Data------------------------
+
+
+
+select * from dbo_NhanVien
+insert into dbo_NhanVien values('ad123',N'admin',N'Gia Thuận',N'giathuan.png',21,'125000.00','2002/11/17','admin')
+insert into dbo_NhanVien values('TX0012',N'khanghet',N'Ngọc Khang',N'khanghet.png',21,'125000.00','2002/10/16','TaiXe')
+
+insert into dbo_History values('H001',N'Thay đổi hệ thống','ad123')
+select * from dbo_History
+
+
+insert into dbo_Xe values('51B02345',45,'TX0013')
+insert into dbo_Xe values('51B02456',45,'TX0013')
+insert into dbo_Xe values('51B02789',45,'TX0013')
+select * from dbo_Xe
+
+
+insert into dbo_BangLichTrinh values('LT001',N'Sài Gòn - Bến Tre','2023/10/26','51B02345')
+insert into dbo_BangLichTrinh values('LT002',N'Sài Gòn - Tiền Giang','2023/10/26','51B02456')
+insert into dbo_BangLichTrinh values('LT005',N'Tiền Giang - Bến Tre','2023/10/26','51B02789')
+select * from dbo_BangLichTrinh
+
+
+insert into dbo_KhachHang values(0329867771,N'Minh Won',32)
+insert into dbo_KhachHang values(0123456789,N'Thành An',1)
+insert into dbo_KhachHang values(0987456123,N'Minh Lộc',3)
+select * from dbo_KhachHang
+
+
+insert into dbo_BangVeXe values('V001',GETDATE(),0329867771,'320000.00',2,'onl','LT005','51B02789','NV003')
+
+select * from dbo_BangVeXe
+
+
+
+
+

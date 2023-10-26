@@ -52,11 +52,11 @@
     <Compile Include="FromLoading.Designer.cs">
       <DependentUpon>FromLoading.cs</DependentUpon>
     </Compile>
-    <Compile Include="F_Home.cs">
+    <Compile Include="F_BanVe.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="F_Home.Designer.cs">
-      <DependentUpon>F_Home.cs</DependentUpon>
+    <Compile Include="F_BanVe.Designer.cs">
+      <DependentUpon>F_BanVe.cs</DependentUpon>
     </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
@@ -93,8 +93,8 @@
     <EmbeddedResource Include="FromLoading.resx">
       <DependentUpon>FromLoading.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="F_Home.resx">
-      <DependentUpon>F_Home.cs</DependentUpon>
+    <EmbeddedResource Include="F_BanVe.resx">
+      <DependentUpon>F_BanVe.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

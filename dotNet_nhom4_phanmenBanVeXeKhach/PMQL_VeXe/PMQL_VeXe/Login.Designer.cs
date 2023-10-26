@@ -202,6 +202,7 @@
             this.txtPass.Size = new System.Drawing.Size(296, 31);
             this.txtPass.TabIndex = 6;
             this.txtPass.UseSystemPasswordChar = true;
+            this.txtPass.TextChanged += new System.EventHandler(this.txtPass_TextChanged);
             // 
             // pictureBox6
             // 
@@ -211,6 +212,7 @@
             this.pictureBox6.Size = new System.Drawing.Size(30, 33);
             this.pictureBox6.TabIndex = 5;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // txtUser
             // 
@@ -229,6 +231,7 @@
             this.pictureBox5.Size = new System.Drawing.Size(30, 33);
             this.pictureBox5.TabIndex = 3;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // label5
             // 
@@ -241,6 +244,7 @@
             this.label5.TabIndex = 2;
             this.label5.Text = "Đăng Nhập";
             this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // button4
             // 
@@ -383,7 +387,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-          
+            
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";

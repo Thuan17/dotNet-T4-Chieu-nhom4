@@ -31,16 +31,16 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panelBody = new System.Windows.Forms.Panel();
-            this.pMain = new System.Windows.Forms.Panel();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.label13 = new System.Windows.Forms.Label();
-            this.panel8 = new System.Windows.Forms.Panel();
             this.pHeThong = new System.Windows.Forms.Panel();
             this.btnQLKhachHang = new System.Windows.Forms.Button();
             this.btnQLTaiXe = new System.Windows.Forms.Button();
             this.btnQLNhanVien = new System.Windows.Forms.Button();
             this.btnQLHeThong = new System.Windows.Forms.Button();
+            this.panelBody = new System.Windows.Forms.Panel();
+            this.pMain = new System.Windows.Forms.Panel();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.label13 = new System.Windows.Forms.Label();
+            this.panel8 = new System.Windows.Forms.Panel();
             this.pDropdown = new System.Windows.Forms.Panel();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
@@ -74,10 +74,10 @@
             this.timerDropMenu = new System.Windows.Forms.Timer(this.components);
             this.timerQLHeThong = new System.Windows.Forms.Timer(this.components);
             this.panel2.SuspendLayout();
+            this.pHeThong.SuspendLayout();
             this.panelBody.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel8.SuspendLayout();
-            this.pHeThong.SuspendLayout();
             this.pDropdown.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel6.SuspendLayout();
@@ -103,59 +103,6 @@
             this.panel2.Size = new System.Drawing.Size(1542, 679);
             this.panel2.TabIndex = 3;
             // 
-            // panelBody
-            // 
-            this.panelBody.Controls.Add(this.pMain);
-            this.panelBody.Controls.Add(this.panel9);
-            this.panelBody.Controls.Add(this.panel8);
-            this.panelBody.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelBody.Location = new System.Drawing.Point(10, 123);
-            this.panelBody.Name = "panelBody";
-            this.panelBody.Size = new System.Drawing.Size(1522, 546);
-            this.panelBody.TabIndex = 1;
-            // 
-            // pMain
-            // 
-            this.pMain.BackColor = System.Drawing.Color.Silver;
-            this.pMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pMain.Location = new System.Drawing.Point(167, 48);
-            this.pMain.Name = "pMain";
-            this.pMain.Size = new System.Drawing.Size(1355, 498);
-            this.pMain.TabIndex = 2;
-            // 
-            // panel9
-            // 
-            this.panel9.BackColor = System.Drawing.Color.SkyBlue;
-            this.panel9.Controls.Add(this.label13);
-            this.panel9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel9.Location = new System.Drawing.Point(167, 0);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(1355, 48);
-            this.panel9.TabIndex = 1;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(24, 10);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(99, 29);
-            this.label13.TabIndex = 0;
-            this.label13.Text = "label13";
-            // 
-            // panel8
-            // 
-            this.panel8.BackColor = System.Drawing.Color.SkyBlue;
-            this.panel8.Controls.Add(this.pDropdown);
-            this.panel8.Controls.Add(this.btnQLXe);
-            this.panel8.Controls.Add(this.btn_Home);
-            this.panel8.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel8.Location = new System.Drawing.Point(0, 0);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(167, 546);
-            this.panel8.TabIndex = 0;
-            this.panel8.Paint += new System.Windows.Forms.PaintEventHandler(this.panel8_Paint);
-            // 
             // pHeThong
             // 
             this.pHeThong.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -167,7 +114,7 @@
             this.pHeThong.MaximumSize = new System.Drawing.Size(167, 159);
             this.pHeThong.MinimumSize = new System.Drawing.Size(167, 40);
             this.pHeThong.Name = "pHeThong";
-            this.pHeThong.Size = new System.Drawing.Size(167, 159);
+            this.pHeThong.Size = new System.Drawing.Size(167, 40);
             this.pHeThong.TabIndex = 4;
             // 
             // btnQLKhachHang
@@ -236,6 +183,59 @@
             this.btnQLHeThong.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnQLHeThong.UseVisualStyleBackColor = false;
             this.btnQLHeThong.Click += new System.EventHandler(this.btnQLHeThong_Click);
+            // 
+            // panelBody
+            // 
+            this.panelBody.Controls.Add(this.pMain);
+            this.panelBody.Controls.Add(this.panel9);
+            this.panelBody.Controls.Add(this.panel8);
+            this.panelBody.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panelBody.Location = new System.Drawing.Point(10, 123);
+            this.panelBody.Name = "panelBody";
+            this.panelBody.Size = new System.Drawing.Size(1522, 546);
+            this.panelBody.TabIndex = 1;
+            // 
+            // pMain
+            // 
+            this.pMain.BackColor = System.Drawing.Color.Silver;
+            this.pMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pMain.Location = new System.Drawing.Point(167, 48);
+            this.pMain.Name = "pMain";
+            this.pMain.Size = new System.Drawing.Size(1355, 498);
+            this.pMain.TabIndex = 2;
+            // 
+            // panel9
+            // 
+            this.panel9.BackColor = System.Drawing.Color.SkyBlue;
+            this.panel9.Controls.Add(this.label13);
+            this.panel9.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel9.Location = new System.Drawing.Point(167, 0);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(1355, 48);
+            this.panel9.TabIndex = 1;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(24, 10);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(99, 29);
+            this.label13.TabIndex = 0;
+            this.label13.Text = "label13";
+            // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.SkyBlue;
+            this.panel8.Controls.Add(this.pDropdown);
+            this.panel8.Controls.Add(this.btnQLXe);
+            this.panel8.Controls.Add(this.btn_Home);
+            this.panel8.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel8.Location = new System.Drawing.Point(0, 0);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(167, 546);
+            this.panel8.TabIndex = 0;
+            this.panel8.Paint += new System.Windows.Forms.PaintEventHandler(this.panel8_Paint);
             // 
             // pDropdown
             // 
@@ -617,6 +617,7 @@
             this.txtName.Dock = System.Windows.Forms.DockStyle.Fill;
             this.txtName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtName.Location = new System.Drawing.Point(40, 0);
+            this.txtName.MinimumSize = new System.Drawing.Size(115, 48);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(115, 48);
             this.txtName.TabIndex = 0;
@@ -628,6 +629,7 @@
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.MinimumSize = new System.Drawing.Size(31, 42);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(31, 42);
             this.pictureBox1.TabIndex = 1;
@@ -657,11 +659,11 @@
             this.Text = "Main";
             this.Load += new System.EventHandler(this.Main_Load);
             this.panel2.ResumeLayout(false);
+            this.pHeThong.ResumeLayout(false);
             this.panelBody.ResumeLayout(false);
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
             this.panel8.ResumeLayout(false);
-            this.pHeThong.ResumeLayout(false);
             this.pDropdown.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
