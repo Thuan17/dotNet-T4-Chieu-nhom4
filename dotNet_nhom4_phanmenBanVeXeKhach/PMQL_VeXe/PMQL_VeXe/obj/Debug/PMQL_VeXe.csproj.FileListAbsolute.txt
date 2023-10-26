@@ -28,3 +28,24 @@ D:\Cong Nghe .NET\Lan 2\DoAn\Gihub\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\PM
 D:\Cong Nghe .NET\Lan 2\DoAn\Gihub\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\PMQL_VeXe\obj\Debug\PMQL_VeXe.pdb
 D:\Cong Nghe .NET\Lan 2\DoAn\Gihub\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\PMQL_VeXe\obj\Debug\PMQL_VeXe.QuanLyXe.resources
 D:\Cong Nghe .NET\Lan 2\DoAn\Gihub\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\PMQL_VeXe\obj\Debug\PMQL_VeXe.QLNhanVien.resources
+D:\DaiHoc\CongNghe.net\DoAn\dotNet-T4-Chieu-nhom4\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\PMQL_VeXe\obj\Debug\PMQL_VeXe.csproj.AssemblyReference.cache
+D:\DaiHoc\CongNghe.net\DoAn\dotNet-T4-Chieu-nhom4\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\PMQL_VeXe\obj\Debug\PMQL_VeXe.FromLoading.resources
+D:\DaiHoc\CongNghe.net\DoAn\dotNet-T4-Chieu-nhom4\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\PMQL_VeXe\obj\Debug\PMQL_VeXe.F_BanVe.resources
+D:\DaiHoc\CongNghe.net\DoAn\dotNet-T4-Chieu-nhom4\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\PMQL_VeXe\obj\Debug\PMQL_VeXe.Login.resources
+D:\DaiHoc\CongNghe.net\DoAn\dotNet-T4-Chieu-nhom4\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\PMQL_VeXe\obj\Debug\PMQL_VeXe.Profile.resources
+D:\DaiHoc\CongNghe.net\DoAn\dotNet-T4-Chieu-nhom4\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\PMQL_VeXe\obj\Debug\PMQL_VeXe.Properties.Resources.resources
+D:\DaiHoc\CongNghe.net\DoAn\dotNet-T4-Chieu-nhom4\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\PMQL_VeXe\obj\Debug\PMQL_VeXe.QLNhanVien.resources
+D:\DaiHoc\CongNghe.net\DoAn\dotNet-T4-Chieu-nhom4\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\PMQL_VeXe\obj\Debug\PMQL_VeXe.QuanLyXe.resources
+D:\DaiHoc\CongNghe.net\DoAn\dotNet-T4-Chieu-nhom4\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\PMQL_VeXe\obj\Debug\PMQL_VeXe.csproj.GenerateResource.cache
+D:\DaiHoc\CongNghe.net\DoAn\dotNet-T4-Chieu-nhom4\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\PMQL_VeXe\obj\Debug\PMQL_VeXe.csproj.CoreCompileInputs.cache
+D:\DaiHoc\CongNghe.net\DoAn\dotNet-T4-Chieu-nhom4\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\PMQL_VeXe\obj\Debug\PMQL_VeXe.exe
+D:\DaiHoc\CongNghe.net\DoAn\dotNet-T4-Chieu-nhom4\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\PMQL_VeXe\obj\Debug\PMQL_VeXe.pdb
+D:\DaiHoc\CongNghe.net\DoAn\dotNet-T4-Chieu-nhom4\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\PMQL_VeXe\bin\Debug\PMQL_VeXe.exe.config
+D:\DaiHoc\CongNghe.net\DoAn\dotNet-T4-Chieu-nhom4\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\PMQL_VeXe\bin\Debug\PMQL_VeXe.exe
+D:\DaiHoc\CongNghe.net\DoAn\dotNet-T4-Chieu-nhom4\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\PMQL_VeXe\bin\Debug\PMQL_VeXe.pdb
+D:\DaiHoc\CongNghe.net\DoAn\dotNet-T4-Chieu-nhom4\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\PMQL_VeXe\obj\Debug\PMQL_VeXe.F_Main.resources
+D:\DaiHoc\CongNghe.net\DoAn\dotNet-T4-Chieu-nhom4\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\PMQL_VeXe\bin\Debug\DTO.dll
+D:\DaiHoc\CongNghe.net\DoAn\dotNet-T4-Chieu-nhom4\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\PMQL_VeXe\bin\Debug\DTO.pdb
+D:\DaiHoc\CongNghe.net\DoAn\dotNet-T4-Chieu-nhom4\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\PMQL_VeXe\obj\Debug\PMQL_VeXe.csproj.CopyComplete
+D:\DaiHoc\CongNghe.net\DoAn\dotNet-T4-Chieu-nhom4\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\PMQL_VeXe\obj\Debug\PMQL_VeXe.F_QLXe.resources
+D:\DaiHoc\CongNghe.net\DoAn\dotNet-T4-Chieu-nhom4\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\PMQL_VeXe\obj\Debug\PMQL_VeXe.F_TKve.resources

@@ -58,17 +58,29 @@
     <Compile Include="F_BanVe.Designer.cs">
       <DependentUpon>F_BanVe.cs</DependentUpon>
     </Compile>
+    <Compile Include="F_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Main.Designer.cs">
+      <DependentUpon>F_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_QLXe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_QLXe.Designer.cs">
+      <DependentUpon>F_QLXe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_TKve.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_TKve.Designer.cs">
+      <DependentUpon>F_TKve.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Main.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Main.Designer.cs">
-      <DependentUpon>Main.cs</DependentUpon>
     </Compile>
     <Compile Include="Profile.cs">
       <SubType>Form</SubType>
@@ -96,11 +108,17 @@
     <EmbeddedResource Include="F_BanVe.resx">
       <DependentUpon>F_BanVe.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="F_Main.resx">
+      <DependentUpon>F_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_QLXe.resx">
+      <DependentUpon>F_QLXe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_TKve.resx">
+      <DependentUpon>F_TKve.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Main.resx">
-      <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Profile.resx">
       <DependentUpon>Profile.cs</DependentUpon>
@@ -135,6 +153,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="images\collapse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{1be639f8-47b3-4885-929b-b5b446215ea1}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

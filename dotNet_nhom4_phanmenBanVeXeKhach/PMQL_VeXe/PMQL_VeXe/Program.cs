@@ -16,7 +16,7 @@ namespace PMQL_VeXe
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Main());
+            Application.Run(new F_Main());
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿create Database QL_VeXe
+create Database QL_VeXe
 go
 
 

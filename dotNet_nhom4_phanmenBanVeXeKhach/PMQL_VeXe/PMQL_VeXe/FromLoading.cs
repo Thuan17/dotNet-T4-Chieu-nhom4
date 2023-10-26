@@ -24,7 +24,7 @@ namespace PMQL_VeXe
             {
 
                 timer1.Stop();/*/*vao properties enable=true*/
-               Main main = new Main();  
+                F_Main main = new F_Main();  
                 main.Show();
                 Hide();
                 //ResponsiveForm Main = new ResponsiveForm();

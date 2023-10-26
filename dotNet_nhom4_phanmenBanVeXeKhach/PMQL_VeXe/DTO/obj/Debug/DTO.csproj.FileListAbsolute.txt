@@ -1,0 +1,6 @@
+D:\DaiHoc\CongNghe.net\DoAn\dotNet-T4-Chieu-nhom4\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\DTO\bin\Debug\DTO.dll
+D:\DaiHoc\CongNghe.net\DoAn\dotNet-T4-Chieu-nhom4\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\DTO\bin\Debug\DTO.pdb
+D:\DaiHoc\CongNghe.net\DoAn\dotNet-T4-Chieu-nhom4\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\DaiHoc\CongNghe.net\DoAn\dotNet-T4-Chieu-nhom4\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\DaiHoc\CongNghe.net\DoAn\dotNet-T4-Chieu-nhom4\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\DTO\obj\Debug\DTO.dll
+D:\DaiHoc\CongNghe.net\DoAn\dotNet-T4-Chieu-nhom4\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\DTO\obj\Debug\DTO.pdb
