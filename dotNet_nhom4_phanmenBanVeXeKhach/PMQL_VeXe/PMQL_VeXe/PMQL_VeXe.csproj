@@ -76,6 +76,12 @@
     <Compile Include="F_BanVe.Designer.cs">
       <DependentUpon>F_BanVe.cs</DependentUpon>
     </Compile>
+    <Compile Include="F_DoiMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_DoiMatKhau.Designer.cs">
+      <DependentUpon>F_DoiMatKhau.cs</DependentUpon>
+    </Compile>
     <Compile Include="F_History.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +105,12 @@
     </Compile>
     <Compile Include="F_QLLichTrinh.Designer.cs">
       <DependentUpon>F_QLLichTrinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_QLNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_QLNhanVien.Designer.cs">
+      <DependentUpon>F_QLNhanVien.cs</DependentUpon>
     </Compile>
     <Compile Include="F_QLXe.cs">
       <SubType>Form</SubType>
@@ -159,6 +171,9 @@
     <EmbeddedResource Include="F_BanVe.resx">
       <DependentUpon>F_BanVe.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="F_DoiMatKhau.resx">
+      <DependentUpon>F_DoiMatKhau.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="F_History.resx">
       <DependentUpon>F_History.cs</DependentUpon>
     </EmbeddedResource>
@@ -170,6 +185,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="F_QLLichTrinh.resx">
       <DependentUpon>F_QLLichTrinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_QLNhanVien.resx">
+      <DependentUpon>F_QLNhanVien.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="F_QLXe.resx">
       <DependentUpon>F_QLXe.cs</DependentUpon>

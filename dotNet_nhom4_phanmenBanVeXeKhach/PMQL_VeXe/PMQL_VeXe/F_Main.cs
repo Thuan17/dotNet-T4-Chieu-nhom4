@@ -195,7 +195,7 @@ namespace PMQL_VeXe
 
         private void btnQLNhanVien_Click(object sender, EventArgs e)
         {
-            //OpenChildForm(new F_QLNhanVien());
+            OpenChildForm(new F_QLNhanVien());
         }
 
         private void btnLichSu_Click(object sender, EventArgs e)
@@ -214,6 +214,13 @@ namespace PMQL_VeXe
             F_LogIn form = new F_LogIn();
             
             form.Show();
+            Hide();
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            F_DoiMatKhau frm = new F_DoiMatKhau();
+            frm.Show();
             Hide();
         }
     }

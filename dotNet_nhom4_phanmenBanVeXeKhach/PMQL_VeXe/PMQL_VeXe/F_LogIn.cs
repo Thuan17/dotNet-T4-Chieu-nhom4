@@ -115,5 +115,12 @@ namespace PMQL_VeXe
         {
             txtPass.UseSystemPasswordChar = true;
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            F_DoiMatKhau frm = new F_DoiMatKhau();
+            frm.Show();
+            Hide();
+        }
     }
 }

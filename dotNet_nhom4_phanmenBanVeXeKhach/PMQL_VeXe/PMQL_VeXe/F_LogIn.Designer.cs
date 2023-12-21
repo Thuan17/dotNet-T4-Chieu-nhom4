@@ -160,6 +160,7 @@
             this.label3.Size = new System.Drawing.Size(43, 13);
             this.label3.TabIndex = 15;
             this.label3.Text = "Tại đây";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label2
             // 

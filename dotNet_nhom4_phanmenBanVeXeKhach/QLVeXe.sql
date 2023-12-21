@@ -29,24 +29,6 @@ create table dbo_NhanVien(
 go
 
 
-SELECT MONTH(V.NgayMua) AS Thang,   L.TenLichTrinh,  SUM(V.GiaVe) AS TongGiaVe
-FROM  dbo_BangVeXe V INNER JOIN dbo_BangLichTrinh L ON V.MaBangLichTrinh = L.MaBangLichTrinh 
-GROUP BY   MONTH(V.NgayMua),  L.TenLichTrinh;
-
-SELECT MONTH(V.NgayMua) AS Thang, L.TenLichTrinh, SUM(V.GiaVe) AS TongGiaVe 
-                                  FROM dbo_BangVeXe V
-                                INNER JOIN dbo_BangLichTrinh L ON V.MaBangLichTrinh = L.MaBangLichTrinh 
-                                 GROUP BY MONTH(V.NgayMua), L.TenLichTrinh
-
-
-
-
-								 SELECT MONTH(V.NgayMua) AS Thang, L.TenLichTrinh, SUM(V.GiaVe) AS TongGiaVe 
-                              FROM dbo_BangVeXe V
-                              INNER JOIN dbo_BangLichTrinh L ON V.MaBangLichTrinh = L.MaBangLichTrinh
-                              WHERE YEAR(V.NgayMua) = 2023 
-                              GROUP BY MONTH(V.NgayMua), L.TenLichTrinh
-
 
 Create table dbo_BangLichTrinh(
 	MaBangLichTrinh char(20)primary key ,

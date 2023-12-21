@@ -35,6 +35,7 @@
             this.lbName = new MaterialSkin.Controls.MaterialLabel();
             this.TLP = new System.Windows.Forms.TableLayoutPanel();
             this.pSideBar = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
             this.btnQLNhanVien = new System.Windows.Forms.Button();
             this.btnLichSu = new System.Windows.Forms.Button();
             this.btnQLLichTrinh = new System.Windows.Forms.Button();
@@ -44,7 +45,7 @@
             this.btnQLXE = new System.Windows.Forms.Button();
             this.btnVe = new System.Windows.Forms.Button();
             this.panelBody = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.tB_main.SuspendLayout();
             this.panelTop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picAvtar)).BeginInit();
@@ -125,6 +126,7 @@
             // pSideBar
             // 
             this.pSideBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.pSideBar.Controls.Add(this.button2);
             this.pSideBar.Controls.Add(this.button3);
             this.pSideBar.Controls.Add(this.btnQLNhanVien);
             this.pSideBar.Controls.Add(this.btnLichSu);
@@ -141,13 +143,26 @@
             this.pSideBar.Size = new System.Drawing.Size(120, 562);
             this.pSideBar.TabIndex = 0;
             // 
+            // button3
+            // 
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.Location = new System.Drawing.Point(2, 393);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(52, 31);
+            this.button3.TabIndex = 10;
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // btnQLNhanVien
             // 
             this.btnQLNhanVien.FlatAppearance.BorderSize = 0;
             this.btnQLNhanVien.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnQLNhanVien.Image = ((System.Drawing.Image)(resources.GetObject("btnQLNhanVien.Image")));
             this.btnQLNhanVien.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnQLNhanVien.Location = new System.Drawing.Point(0, 262);
+            this.btnQLNhanVien.Location = new System.Drawing.Point(0, 330);
             this.btnQLNhanVien.Margin = new System.Windows.Forms.Padding(2);
             this.btnQLNhanVien.Name = "btnQLNhanVien";
             this.btnQLNhanVien.Size = new System.Drawing.Size(119, 31);
@@ -163,7 +178,7 @@
             this.btnLichSu.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLichSu.Image = ((System.Drawing.Image)(resources.GetObject("btnLichSu.Image")));
             this.btnLichSu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLichSu.Location = new System.Drawing.Point(2, 227);
+            this.btnLichSu.Location = new System.Drawing.Point(2, 295);
             this.btnLichSu.Margin = new System.Windows.Forms.Padding(2);
             this.btnLichSu.Name = "btnLichSu";
             this.btnLichSu.Size = new System.Drawing.Size(119, 31);
@@ -180,7 +195,7 @@
             this.btnQLLichTrinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQLLichTrinh.Image = ((System.Drawing.Image)(resources.GetObject("btnQLLichTrinh.Image")));
             this.btnQLLichTrinh.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnQLLichTrinh.Location = new System.Drawing.Point(0, 72);
+            this.btnQLLichTrinh.Location = new System.Drawing.Point(0, 140);
             this.btnQLLichTrinh.Margin = new System.Windows.Forms.Padding(2);
             this.btnQLLichTrinh.Name = "btnQLLichTrinh";
             this.btnQLLichTrinh.Size = new System.Drawing.Size(119, 31);
@@ -212,7 +227,7 @@
             this.btnTKDoanhSo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTKDoanhSo.Image = ((System.Drawing.Image)(resources.GetObject("btnTKDoanhSo.Image")));
             this.btnTKDoanhSo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTKDoanhSo.Location = new System.Drawing.Point(1, 173);
+            this.btnTKDoanhSo.Location = new System.Drawing.Point(1, 241);
             this.btnTKDoanhSo.Margin = new System.Windows.Forms.Padding(2);
             this.btnTKDoanhSo.Name = "btnTKDoanhSo";
             this.btnTKDoanhSo.Size = new System.Drawing.Size(119, 41);
@@ -227,7 +242,7 @@
             this.btn_ThongKeVe.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ThongKeVe.Image = ((System.Drawing.Image)(resources.GetObject("btn_ThongKeVe.Image")));
             this.btn_ThongKeVe.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_ThongKeVe.Location = new System.Drawing.Point(1, 138);
+            this.btn_ThongKeVe.Location = new System.Drawing.Point(1, 206);
             this.btn_ThongKeVe.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ThongKeVe.Name = "btn_ThongKeVe";
             this.btn_ThongKeVe.Size = new System.Drawing.Size(119, 31);
@@ -243,7 +258,7 @@
             this.btnQLXE.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQLXE.Image = ((System.Drawing.Image)(resources.GetObject("btnQLXE.Image")));
             this.btnQLXE.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnQLXE.Location = new System.Drawing.Point(2, 107);
+            this.btnQLXE.Location = new System.Drawing.Point(2, 175);
             this.btnQLXE.Margin = new System.Windows.Forms.Padding(2);
             this.btnQLXE.Name = "btnQLXE";
             this.btnQLXE.Size = new System.Drawing.Size(119, 31);
@@ -278,19 +293,19 @@
             this.panelBody.Size = new System.Drawing.Size(844, 562);
             this.panelBody.TabIndex = 1;
             // 
-            // button3
+            // button2
             // 
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(2, 325);
-            this.button3.Margin = new System.Windows.Forms.Padding(2);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(52, 31);
-            this.button3.TabIndex = 10;
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.Location = new System.Drawing.Point(-1, 72);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(119, 31);
+            this.button2.TabIndex = 11;
+            this.button2.Text = "Đổi mật khẩu";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // F_Main
             // 
@@ -331,5 +346,6 @@
         private MaterialSkin.Controls.MaterialLabel lbName;
         private System.Windows.Forms.PictureBox picAvtar;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
     }
 }
