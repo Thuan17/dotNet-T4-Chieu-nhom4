@@ -58,7 +58,7 @@ namespace DTO
 
         public DB()
         {
-            StrSeverName = @"LAPTOP-ALA9RHJO\SQLEXPRESS";
+            StrSeverName = @"DESKTOP-OGP3ROS\SQLEXPRESS";
             StrDatabaseName = "QL_VeXe";
             StrUserName = "sa";
             StrPwd = "123";

@@ -4,3 +4,9 @@ D:\DaiHoc\CongNghe.net\DoAn\dotNet-T4-Chieu-nhom4\dotNet_nhom4_phanmenBanVeXeKha
 D:\DaiHoc\CongNghe.net\DoAn\dotNet-T4-Chieu-nhom4\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
 D:\DaiHoc\CongNghe.net\DoAn\dotNet-T4-Chieu-nhom4\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\DTO\obj\Debug\DTO.dll
 D:\DaiHoc\CongNghe.net\DoAn\dotNet-T4-Chieu-nhom4\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\DTO\obj\Debug\DTO.pdb
+D:\Cong Nghe .NET\Lan 2\DoAn\Gihub\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\DTO\bin\Debug\DTO.dll
+D:\Cong Nghe .NET\Lan 2\DoAn\Gihub\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\DTO\bin\Debug\DTO.pdb
+D:\Cong Nghe .NET\Lan 2\DoAn\Gihub\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
+D:\Cong Nghe .NET\Lan 2\DoAn\Gihub\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\Cong Nghe .NET\Lan 2\DoAn\Gihub\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\DTO\obj\Debug\DTO.dll
+D:\Cong Nghe .NET\Lan 2\DoAn\Gihub\dotNet_nhom4_phanmenBanVeXeKhach\PMQL_VeXe\DTO\obj\Debug\DTO.pdb
